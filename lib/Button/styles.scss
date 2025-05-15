@@ -1,0 +1,54 @@
+@import '/node_modules/bootstrap-italia/src/scss/base/mixins/banner';
+@include bsBanner('');
+
+// Bootstrap Italia version
+@import '/node_modules/bootstrap-italia/src/scss/base/version';
+// ------------------------------
+
+// Functions
+@import '/node_modules/bootstrap-italia/src/scss/base/functions';
+// ------------------------------
+
+// Variables
+@import '/node_modules/bootstrap-italia/src/scss/base/variables';
+// ------------------------------
+
+// Functions, maps and mixins
+@import '/node_modules/bootstrap-italia/src/scss/base/mixins';
+@import '/node_modules/bootstrap-italia/src/scss/base/maps';
+@import '/node_modules/bootstrap-italia/src/scss/base/utilities';
+// ------------------------------
+
+// Layout
+@import '/node_modules/bootstrap-italia/src/scss/base/root';
+@import '/node_modules/bootstrap-italia/src/scss/base/reboot';
+@import '/node_modules/bootstrap-italia/src/scss/base/containers';
+@import '/node_modules/bootstrap-italia/src/scss/base/transitions';
+// ------------------------------
+
+// Helpers & utilities
+@import '/node_modules/bootstrap-italia/src/scss/base/helpers';
+@import '/node_modules/bootstrap-italia/src/scss/base/utilities/api';
+// ------------------------------
+
+// Class utilities
+@import '/node_modules/bootstrap-italia/src/scss/utilities/focus';
+@import '/node_modules/bootstrap-italia/src/scss/utilities/icons';
+@import '/node_modules/bootstrap-italia/src/scss/utilities/colors';
+@import '/node_modules/bootstrap-italia/src/scss/utilities/text-colors';
+@import "/node_modules/bootstrap-italia/src/scss/components/card";
+// ------------------------------
+.greenaus-component-library-react{
+    //   // funzioni e variabili colore
+    // @import 'bootstrap-italia/src/scss/functions';
+    // @import 'bootstrap-italia/src/scss/utilities/colors_vars';
+    
+    // //variables
+    // @import 'bootstrap-italia/src/scss/variables';
+    
+    // //classi colore
+    // @import 'bootstrap-italia/src/scss/utilities/colors';
+}
+// .button {
+//   padding: 10px;
+// }

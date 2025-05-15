@@ -17,6 +17,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "bootstrap-italia": "^2.14.0",
     "clsx": "^2.1.1"
   },
   "devDependencies": {
